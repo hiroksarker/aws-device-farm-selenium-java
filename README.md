@@ -5,6 +5,8 @@ AWS Device Farm is a testing service from AWS that can help us to improve the qu
 
 The service allows us to run our tests on multiple desktop browsers or real devices to speed up the execution of your test suite and generates videos and logs to help you quickly identify problems with your application.
 
+![testgrid-overview-shared](https://user-images.githubusercontent.com/4995276/73137182-a450bb80-407f-11ea-9374-e951a8044b50.png)
+
 About AWS Device Farm Details: https://docs.aws.amazon.com/devicefarm/latest/testgrid/what-is-testgrid.html
 
 AWS CLI Configuration: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html

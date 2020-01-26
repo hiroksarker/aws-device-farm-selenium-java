@@ -6,5 +6,22 @@ AWS Device Farm is a testing service from AWS that can help us to improve the qu
 The service allows us to run our tests on multiple desktop browsers or real devices to speed up the execution of your test suite and generates videos and logs to help you quickly identify problems with your application.
 
 About AWS Device Farm Details: https://docs.aws.amazon.com/devicefarm/latest/testgrid/what-is-testgrid.html
-Windows Configuration: https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+
 AWS CLI Configuration: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+
+Pre-requisites
+- Windows (Python, pip3)
+- IntelliJ IDEA
+- Install AWS CLI, check the following link to know more about this step from AWS documentation https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+After installing AWS CLI you need to configure your account with command
+```
+aws configure
+```
+You need to add the following credentials:
+
+```
+AWS Access Key ID
+AWS Secret Access Key
+```
+Default region name - for example us-west-2
+To know more about your Security Credentials you can check this link - https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html
